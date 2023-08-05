@@ -5,9 +5,131 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --font-mono: Montserrat;
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Black.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-Bold.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-ExtraBold.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-ExtraLight.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-Light.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-Medium.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-Regular.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-SemiBold.ttf') format('truetype') !important;
+  src: url('./assets/fonts/Montserrat-Arabic-Thin.ttf') format('truetype') !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Black.ttf') format('ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Bold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-ExtraLight.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Light.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Medium.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Regular.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Alexandria-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+/* ------------ here -----------------*/
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Black.ttf') format('ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Bold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-ExtraLight.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Light.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Medium.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Regular.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Arabic-Thin.ttf') format('truetype');
+  font-weight: 100;
 }
