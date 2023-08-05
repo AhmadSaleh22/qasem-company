@@ -1,15 +1,12 @@
 import React from 'react'
-import { FooterCol, FooterText, FooterTitle, FooterWrapper } from './style'
+import { FooterCol, FooterText, FooterTitle, FooterWrapper, ImageFot } from './style'
 import img1 from '../../assets/image 18.png'
 
 export default function Footer() {
   return (
     <FooterWrapper>
       <FooterCol>
-        <img style={{
-          width: 'fit-content',
-          margin: '0 -25px'
-        }} src={img1} alt='' />
+        <ImageFot src={img1} alt='' />
         <FooterText>
           Find your company experts on water
           wells drilling for your Living safety

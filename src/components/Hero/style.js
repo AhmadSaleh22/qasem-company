@@ -20,6 +20,10 @@ export const HeroContentWrapper = styled.div`
     margin: 40px auto;
     width: 40%;
     margin: 300px auto;
+    @media screen and (max-width: 1200px){
+        width: 95%;
+        margin: 120px auto;
+    }
 `
 
 export const TitleHeroTip = styled.p`
@@ -83,4 +87,16 @@ line-height: 2.625rem;
     color: white;
     background-color: #4F4E9C;
 
+`
+
+export const Image = styled.img`
+width: 50%;
+                height: 1000px;
+                margin: auto;
+                @media screen and (max-width: 1200px){
+              display: none;
+        /* width: 100%; */
+        /* text-align: center; */
+        /* text-align: ${props => props.ab && 'initial'}; */
+    }
 `

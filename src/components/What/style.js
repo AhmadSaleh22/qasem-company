@@ -40,6 +40,9 @@ margin: 50px auto;
 font-weight: 400;
 line-height: normal;
 text-align: center;
+@media screen and (max-width: 1200px){
+        width: 100%;
+    }
     `
 
     export const WhatDo = styled.p`
@@ -59,6 +62,10 @@ export const Row = styled.div`
     flex-direction: row;
     gap: 50px;
     margin: 50px 0;
+        @media screen and (max-width: 1200px){
+            gap: 15px;
+        /* width: 16%; */
+    }
 
 `
 
@@ -68,6 +75,10 @@ export const Col = styled.div`
     width: 80%;
     width: ${props => props.full && '45%'};
     width: ${props => props.fully && '100%'};
+        @media screen and (max-width: 1200px){
+    width: ${props => props.full && '50%'};
+        /* width: 16%; */
+    }
 `
 
 export const Circle = styled.div`
@@ -105,4 +116,21 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+`
+
+export const ImageT = styled.img`
+    width: 50%;
+    margin: 250px auto;
+    height: 900px;
+    @media screen and (max-width: 1200px){
+        display: none;
+    }
+`
+
+
+export const WrapDiv = styled.div`
+    width: 80%;
+    @media screen and (max-width: 1200px){
+        width: 100%;
+    }
 `

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Circle, Col, Row, WhatDo, WhatSection, WhatSectionText, WhatSectionTitle, WhatText, WhatTitle } from './style'
+import { Circle, Col, ImageT, Row, WhatDo, WhatSection, WhatSectionText, WhatSectionTitle, WhatText, WhatTitle, WrapDiv } from './style'
 import img1 from '../../assets/image 24.png'
 export default function What() {
     return (
@@ -8,9 +8,7 @@ export default function What() {
             <WhatSectionText>We offer full services to our clients extending from design, construction, installation development, pumping test ,water pump supply & installation, commissioning as well as licensing.</WhatSectionText>
             <WhatDo>Our Services</WhatDo>
             <Row>
-                <div style={{
-                    width: '80%'
-                }}>
+                <WrapDiv>
 
                     <Row>
                         <Circle>1</Circle>
@@ -101,12 +99,8 @@ export default function What() {
                             </WhatText>
                         </Col>
                     </Row>
-                </div>
-                <img style={{
-                    width: '50%',
-                    margin: '250px auto',
-                    height: '900px'
-                }} src={img1} alt='' />
+                </WrapDiv>
+                <ImageT src={img1} alt='' />
             </Row>
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonAction, HeroContentWrapper, HeroWrapper, TextHero, TitleHero, TitleHeroTip } from './style'
+import { ButtonAction, HeroContentWrapper, HeroWrapper, Image, TextHero, TitleHero, TitleHeroTip } from './style'
 import img1 from '../../assets/Ellipse 10.png'
 
 export default function Hero() {
@@ -27,11 +27,7 @@ export default function Hero() {
                 </TextHero>
             <ButtonAction>Contact Us</ButtonAction>
             </HeroContentWrapper>
-            <img style={{
-                width: '50%',
-                height: '1000px',
-                margin: 'auto'
-            }} src={img1} alt='' />
+            <Image src={img1} alt='' />
         </HeroWrapper>
     )
 }

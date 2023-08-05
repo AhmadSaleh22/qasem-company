@@ -13,6 +13,10 @@ font-style: normal;
 font-weight: 400;
 padding: 0 25px;
 line-height: normal;
+    @media screen and (max-width: 1200px){
+        width: 72%;
+        margin: auto;
+    }
 `
 export const Label = styled.label`
     color: #888;
@@ -38,6 +42,9 @@ font-style: normal;
 font-weight: 400;
     border: none;
     resize: none;
+        @media screen and (max-width: 1200px){
+        width: 85%;
+    }
 `
 
 export const ButtonSend = styled.button`
@@ -82,4 +89,12 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 border: none;
+`
+
+export const Form = styled.form`    
+    width: 50%;
+    margin: auto;
+    @media screen and (max-width: 1200px){
+        width: 100%;
+    }
 `

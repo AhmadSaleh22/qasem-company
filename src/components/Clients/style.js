@@ -4,6 +4,9 @@ export const Colom = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media screen and (max-width: 1200px){
+        width: 16%;
+    }
 `
 
 export const RowEl = styled.div`
@@ -20,4 +23,8 @@ font-size: 2rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+    @media screen and (max-width: 1200px){
+        font-size: 1rem;
+        text-align: center;
+    }
 `

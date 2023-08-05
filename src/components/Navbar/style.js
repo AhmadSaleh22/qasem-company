@@ -7,6 +7,12 @@ export const NavbarWrapper = styled.div`
     justify-content: space-between;
     width: 90%;
     margin: auto;
+            @media screen and (max-width: 1200px){
+              display: none;
+        /* width: 100%; */
+        /* text-align: center; */
+        /* text-align: ${props => props.ab && 'initial'}; */
+    }
 `
 
 export const NavbarItems = styled.div`

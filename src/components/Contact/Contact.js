@@ -1,6 +1,6 @@
 import React from 'react'
 import { PhotoSection, PhotoSectionTitle } from '../Photo/style'
-import { ButtonMap, ButtonSend, Input, Label, TextField } from './style'
+import { ButtonMap, ButtonSend, Form, Input, Label, TextField } from './style'
 import { RowEl } from '../Clients/style'
 import { Col } from '../What/style'
 
@@ -13,11 +13,7 @@ export default function Contact() {
             <br />
             <br />
             <br />
-            <form action="mailto:eyad@qassemco.com" method="get" enctype="text/plain"
-             style={{
-                width: '50%',
-                margin: 'auto'
-            }}>
+            <Form action="mailto:eyad@qassemco.com" method="get" enctype="text/plain">
                 <RowEl>
 
                     <Col full>
@@ -49,7 +45,7 @@ export default function Contact() {
                 <RowEl cent>
                     <ButtonSend> Send E-Mail</ButtonSend>
                 </RowEl>
-            </form>
+            </Form>
             <br />
             <br />
             <br />

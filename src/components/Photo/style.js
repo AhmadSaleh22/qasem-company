@@ -3,6 +3,9 @@ import { styled } from "styled-components";
 export const PhotoSection = styled.div`
     width: 95%;
     margin: auto;
+        @media screen and (max-width: 1200px){
+        width: 95%;
+    }
 `
 
 export const PhotoSectionTitle = styled.p`
