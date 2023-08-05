@@ -10,6 +10,7 @@ export const RowEl = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: ${props => props.cent && 'center'};
 `
 
 export const TypoClient = styled.p`

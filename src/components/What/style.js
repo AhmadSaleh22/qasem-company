@@ -66,6 +66,8 @@ export const Col = styled.div`
     display: flex;
     flex-direction: column;
     width: 80%;
+    width: ${props => props.full && '45%'};
+    width: ${props => props.fully && '100%'};
 `
 
 export const Circle = styled.div`
